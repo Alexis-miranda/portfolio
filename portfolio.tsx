@@ -30,15 +30,23 @@ function ThemeToggle() {
 
 export default function Portfolio() {
   const skills = [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "JavaScript",
-    "Node.js",
+    "Java",
     "Python",
-    "Tailwind CSS",
+    "Pandas",
+    "Docker",
+    "Spring",
+    "Spring Boot",
+    "JavaScript",
+    "kubernetes ",
+    "Bootstrap",
+    "Figma",
     "HTML/CSS",
     "Git",
+    "firebase",
+    "Sqlite",
+    "MySql",
+    "Oracle Sql",
+    "microsoft sql server ",
     "MongoDB",
     "PostgreSQL",
     "AWS",
@@ -46,30 +54,30 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Social network",
       description:
-        "A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      github: "#",
-      live: "#",
+        "A complete social network with user authentication, posts, messaging, profiles, and ephemeral stories..",
+      image: "https://github.com/AlexAquinoMiranda/NexusApp/raw/main/app/src/main/res/drawable/logonexus.png",
+      technologies: ["Java", "AndroidStudio", "Xml", "Firebase", "Json", "Glide"],
+      github: "https://github.com/AlexAquinoMiranda/NexusApp",
+      live: "https://github.com/AlexAquinoMiranda/NexusApp/blob/main/README.md",
     },
     {
-      title: "Task Management App",
+      title: "World´s Cup",
       description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "#",
-      live: "#",
+        "an app that simulates a sticker album for the 2022 World Cup.",
+      image: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22/blob/main/app/src/main/res/drawable/loogo.jpg?raw=true",
+      technologies: ["Java", "Sqlite", "Xml"],
+       github: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22",
+      live: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22/blob/main/README.md",
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
-      image: "/placeholder.svg?height=200&width=300",
-      technologies: ["React", "Chart.js", "Weather API", "Tailwind CSS"],
-      github: "#",
-      live: "#",
+      title: "User Form",
+      description: "basis for learning to build web application forms and perform validations",
+      image: "https://th.bing.com/th/id/OIP.6n3tJpcA-ozVS7fCN-JF_gHaHa?w=217&h=217&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      technologies: ["Spring Boot", "Java", "Bootstrap", "Thymeleaf", "MVC"],
+      github: "https://github.com/AlexAquinoMiranda/FormularioUser",
+      live: "https://github.com/AlexAquinoMiranda/FormularioUser/blob/main/README.md",
     },
   ]
 
@@ -108,14 +116,14 @@ export default function Portfolio() {
       <section className="pt-20 pb-16 px-4">
         <div className="container mx-auto text-center">
           <Avatar className="w-32 h-32 mx-auto mb-6">
-            <AvatarImage src="/placeholder.svg?height=128&width=128" alt="Profile" />
+            <AvatarImage src="/images/profile.jpg" alt="Alexis Miranda Profile" />
             <AvatarFallback className="text-2xl">AM</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Hi, I'm <span className="text-primary">Alexis Miranda</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          software developer passionate about creating functional applications.
+           a software developer student passionate about technologies
           </p>
           <div className="flex justify-center space-x-4 mb-8">
             <Button asChild>
@@ -127,7 +135,7 @@ export default function Portfolio() {
           </div>
           <div className="flex justify-center space-x-4">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://https://github.com/AlexAquinoMiranda" target="_blank">
+              <Link href="https://github.com/Alexis-miranda" target="_blank">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
@@ -155,35 +163,32 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg mb-6">
-              I am a passionate backend developer eager to gain more experience 
-              creating applications that solve real-world problems. I love working
-               with modern technologies and am always keen to learn new skills.
+                I am a passionate backend developer eager to gain more experience creating applications that solve
+                real-world problems. I love working with modern technologies and am always keen to learn new skills.
               </p>
-              <p className="text-lg mb-6">
-              When I'm not programming, you can find me exploring new technologies.
-              </p>
+              <p className="text-lg mb-6">When I'm not programming, you can find me exploring new technologies.</p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center space-x-2">
                   <Code className="h-5 w-5 text-primary" />
                   <span>Clean Code</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Palette className="h-5 w-5 text-primary" />
+                  <Code className="h-5 w-5 text-primary" />
                   <span>DataBases</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Smartphone className="h-5 w-5 text-primary" />
+                  <Code className="h-5 w-5 text-primary" />
                   <span>Java</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Globe className="h-5 w-5 text-primary" />
+                  <Code className="h-5 w-5 text-primary" />
                   <span>Python</span>
                 </div>
               </div>
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="https://th.bing.com/th/id/OIP.y3ASDpPxgcy9kQBtPcbuKQHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain" 
                 alt="About me"
                 width={400}
                 height={400}
