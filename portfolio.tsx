@@ -188,7 +188,7 @@ export default function Portfolio() {
             </div>
             <div className="relative">
               <Image
-                src="https://linenquarter.org/app/uploads/2021/02/software-testing.jpg" 
+                src="https://th.bing.com/th/id/OIP.j-Xm4r-oUDAsE_gUYlpduAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3" 
                 alt="About me"
                 width={400}
                 height={400}
