@@ -59,8 +59,8 @@ export default function Portfolio() {
         "A complete social network with user authentication, posts, messaging, profiles, and ephemeral stories..",
       image: "https://github.com/AlexAquinoMiranda/NexusApp/raw/main/app/src/main/res/drawable/logonexus.png",
       technologies: ["Java", "AndroidStudio", "Xml", "Firebase", "Json", "Glide"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AlexAquinoMiranda/NexusApp",
+      live: "https://github.com/AlexAquinoMiranda/NexusApp/blob/main/README.md",
     },
     {
       title: "World´s Cup",
@@ -68,16 +68,16 @@ export default function Portfolio() {
         "an app that simulates a sticker album for the 2022 World Cup.",
       image: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22/blob/main/app/src/main/res/drawable/loogo.jpg?raw=true",
       technologies: ["Java", "Sqlite", "Xml"],
-      github: "#",
-      live: "#",
+       github: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22",
+      live: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22/blob/main/README.md",
     },
     {
       title: "User Form",
       description: "basis for learning to build web application forms and perform validations",
       image: "https://th.bing.com/th/id/OIP.6n3tJpcA-ozVS7fCN-JF_gHaHa?w=217&h=217&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
       technologies: ["Spring Boot", "Java", "Bootstrap", "Thymeleaf", "MVC"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AlexAquinoMiranda/FormularioUser",
+      live: "https://github.com/AlexAquinoMiranda/FormularioUser/blob/main/README.md",
     },
   ]
 
