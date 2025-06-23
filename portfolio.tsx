@@ -188,7 +188,7 @@ export default function Portfolio() {
             </div>
             <div className="relative">
               <Image
-                src="https://th.bing.com/th/id/OIP.j-Xm4r-oUDAsE_gUYlpduAHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3" 
+                src="https://th.bing.com/th/id/OIP.y3ASDpPxgcy9kQBtPcbuKQHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain" 
                 alt="About me"
                 width={400}
                 height={400}
