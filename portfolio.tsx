@@ -38,7 +38,7 @@ export default function Portfolio() {
     "Spring Boot",
     "JavaScript",
     "kubernetes ",
-    "bootstrap",
+    "Bootstrap",
     "Figma",
     "HTML/CSS",
     "Git",
