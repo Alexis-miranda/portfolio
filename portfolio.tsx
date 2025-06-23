@@ -123,7 +123,7 @@ export default function Portfolio() {
             Hi, I'm <span className="text-primary">Alexis Miranda</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            software developer passionate about creating functional applications.
+           a software developer student passionate about technologies
           </p>
           <div className="flex justify-center space-x-4 mb-8">
             <Button asChild>
