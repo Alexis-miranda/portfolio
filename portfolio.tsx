@@ -73,7 +73,7 @@ export default function Portfolio() {
     },
     {
       title: "User Form",
-      description: "base to learn how to build web application forms in Java with Spring Boot and other related technologies",
+      description: "basis for learning to build web application forms and perform validations",
       image: "https://th.bing.com/th/id/OIP.6n3tJpcA-ozVS7fCN-JF_gHaHa?w=217&h=217&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
       technologies: ["Spring Boot", "Java", "Bootstrap", "Thymeleaf", "MVC"],
       github: "#",
