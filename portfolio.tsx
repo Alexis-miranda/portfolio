@@ -65,7 +65,7 @@ export default function Portfolio() {
     {
       title: "World´s Cup",
       description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
+        "an app that simulates a sticker album for the 2022 World Cup.",
       image: "https://github.com/AlexAquinoMiranda/AlbumMundialQtar_22/blob/main/app/src/main/res/drawable/loogo.jpg?raw=true",
       technologies: ["Java", "Sqlite", "Xml"],
       github: "#",
