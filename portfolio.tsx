@@ -135,7 +135,7 @@ export default function Portfolio() {
           </div>
           <div className="flex justify-center space-x-4">
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://https://github.com/AlexAquinoMiranda" target="_blank">
+              <Link href="https://github.com/Alexis-miranda" target="_blank">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
